@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Welcome to Chatly!</title>
 </head>
 <body>
-    <div class="signup.php__wrapper">
-        <section class="signup.php__signupForm">
+    <div class="signup__wrapper">
+        <section class="signup__signupForm">
             <header>Chatly</header>
             <form action="#" method="post">
                 <div class="signup.php__errorText"></div>
@@ -29,7 +29,7 @@
                     </div>
                     <div class="signup.php__field">
                         <label for="#signup.php__password">Password</label>
-                        <input name="password" id="signup.php__password" type="password" placeholder="qwert1234">
+                        <input name="password" id="signup.php__password" type="password" placeholder="qwerty1234">
                     </div>
                     <div class="signup.php__field">
                         <label for="#signup.php__photo">Choose your profile photo</label>
