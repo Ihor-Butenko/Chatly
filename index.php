@@ -1,5 +1,5 @@
 <?php
     sleep(2);
-    header("Location: ")
+    header("Location: ./verification/signup.php")
     exit();
 ?>
