@@ -12,7 +12,7 @@
     <div class="signup.php__wrapper">
         <section class="signup.php__signupForm">
             <header>Chatly</header>
-            <form action="#">
+            <form action="#" method="post">
                 <div class="signup.php__errorText"></div>
                 <div class="signup.php__userDataContainer">
                     <div class="signup.php__field">
@@ -35,7 +35,11 @@
                         <label for="#signup.php__photo">Choose your profile photo</label>
                         <input name="photo" id="signup.php__photo" type="file">
                     </div>
+                    <div class="signup.php__field">
+                        <input name="submit" type="submit" value="Start Chat!">
+                    </div>
                 </div>
+                <div class="signup.php__alreadySignUpContainer">Already signed up? <a href="./login.php">Login Now</a></div>
             </form>
         </section>
     </div>
