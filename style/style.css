@@ -38,5 +38,6 @@ body{
 .signup__signupForm header{
     font-size: 25px;
     font-weight: 600;
+    padding-top: 10px;
     border-bottom: 1px solid #e6e6e6;    
 }
