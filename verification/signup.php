@@ -13,7 +13,7 @@
         <section class="signup__signupForm">
             <header>Chatly</header>
             <form action="#" method="post">
-                <div class="signup.php__errorText"></div>
+                <div class="signup__errorText">This error text</div>
                 <div class="signup.php__userDataContainer">
                     <div class="signup.php__field">
                         <label for="#signup.php__firstName">First Name</label>
