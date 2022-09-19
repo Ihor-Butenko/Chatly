@@ -13,6 +13,8 @@
 :root{
     --grey-background-color: #f7f7f7;
     --white-color: #fff;
+    --error-color: #721c24;
+    --background-error-color: #f8d7da;
 }
 
 body{
@@ -38,6 +40,16 @@ body{
 .signup__signupForm header{
     font-size: 25px;
     font-weight: 600;
-    padding-top: 10px;
-    border-bottom: 1px solid #e6e6e6;    
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.signup__signupForm form{
+    margin: 10px 0px;
+}
+
+.signup__signupForm form .signup__errorText{
+    color: var(--error-color);
+    background-color: var(--background-error-color);
+    padding: 8px 10px;
 }
