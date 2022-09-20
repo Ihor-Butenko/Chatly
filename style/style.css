@@ -63,3 +63,17 @@ body{
     flex-direction: column;
     margin-bottom: 30px;
 }
+
+.signup__signupForm form .signup__field input{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;     
+}
+
+.signup__signupForm form .signup__name-details{
+    display: flex;
+}
