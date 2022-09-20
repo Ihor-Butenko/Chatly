@@ -14,32 +14,32 @@
             <header>Chatly</header>
             <form action="#" method="post">
                 <div class="signup__errorText">This error text</div>
-                <div class="signup.php__userDataContainer">
-                    <div class="signup.php__field">
+                <div class="signup__userDataContainer">
+                    <div class="signup__field">
                         <label for="#signup.php__firstName">First Name</label>
-                        <input name="firstName" id="signup.php__firstName" type="text" placeholder="Elon">
+                        <input name="firstName" id="signup__firstName" type="text" placeholder="Elon">
                     </div>
-                    <div class="signup.php__field">
+                    <div class="signup__field">
                         <label for="#signup.php__secondName">Second Name</label>
-                        <input name="secondName" id="signup.php__secondName" type="text" placeholder="Musk">
+                        <input name="secondName" id="signup__secondName" type="text" placeholder="Musk">
                     </div>
-                    <div class="signup.php__field">
-                        <label for="#signup.php__email">Email Adress</label>
-                        <input name="email" id="signup.php__email" type="text" placeholder="example@gmail.com">
+                    <div class="signup__field">
+                        <label for="#signup__email">Email Adress</label>
+                        <input name="email" id="signup__email" type="text" placeholder="example@gmail.com">
                     </div>
-                    <div class="signup.php__field">
-                        <label for="#signup.php__password">Password</label>
-                        <input name="password" id="signup.php__password" type="password" placeholder="qwerty1234">
+                    <div class="signup__field">
+                        <label for="#signup__password">Password</label>
+                        <input name="password" id="signup__password" type="password" placeholder="qwerty1234">
                     </div>
-                    <div class="signup.php__field">
-                        <label for="#signup.php__photo">Choose your profile photo</label>
-                        <input name="photo" id="signup.php__photo" type="file">
+                    <div class="signup__field">
+                        <label for="#signup__photo">Choose your profile photo</label>
+                        <input name="photo" id="signup__photo" type="file">
                     </div>
-                    <div class="signup.php__field">
+                    <div class="signup__field">
                         <input name="submit" type="submit" value="Start Chat!">
                     </div>
                 </div>
-                <div class="signup.php__alreadySignUpContainer">Already signed up? <a href="./login.php">Login Now</a></div>
+                <div class="signup__alreadySignUpContainer">Already signed up? <a href="./login.php">Login Now</a></div>
             </form>
         </section>
     </div>
