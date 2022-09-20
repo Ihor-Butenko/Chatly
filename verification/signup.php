@@ -16,11 +16,11 @@
                 <div class="signup__errorText">This error text</div>
                 <div class="signup__userDataContainer">
                     <div class="signup__field">
-                        <label for="#signup.php__firstName">First Name</label>
+                        <label for="#signup__firstName">First Name</label>
                         <input name="firstName" id="signup__firstName" type="text" placeholder="Elon">
                     </div>
                     <div class="signup__field">
-                        <label for="#signup.php__secondName">Second Name</label>
+                        <label for="#signup__secondName">Second Name</label>
                         <input name="secondName" id="signup__secondName" type="text" placeholder="Musk">
                     </div>
                     <div class="signup__field">
