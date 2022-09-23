@@ -15,6 +15,7 @@
     --white-color: #fff;
     --error-color: #721c24;
     --background-error-color: #f8d7da;
+    --grey-button-background-color: #333;
 }
 
 body{
@@ -64,6 +65,10 @@ body{
     margin-bottom: 30px;
 }
 
+.signup__signupForm form .signup__field label{
+    margin-bottom: 2px;
+}
+
 .signup__signupForm form .signup__field input{
     height: 40px;
     width: 100%;
@@ -76,4 +81,58 @@ body{
 
 .signup__signupForm form .signup__name-details{
     display: flex;
+}
+
+.signup__signupForm form .signup__name-details #first-name{
+    margin-right: 10px;
+}
+
+.signup__signupForm form .signup__name-details #second-name{
+    margin-left: 10px;
+}
+
+.signup__signupForm form .photo{
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.signup__signupForm form .signup__button{
+    margin-bottom: 5px;
+    height: 45px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;        
+}
+
+.signup__signupForm form .signup__button input{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none; 
+    background-color: var(--grey-button-background-color);
+    color: var(--white-color);
+    border-radius: 10px;
+    cursor: pointer;    
+}
+
+.signup__signupForm form .signup__button input:hover{
+    background-color: #191919; 
+    transition: .2s linear;   
+}
+
+.signup__alreadySignUpContainer{
+    text-align: center;
+    margin: 0px 10px;
+    font-size: 17px;
+}
+
+.signup__alreadySignUpContainer a{
+    cursor: pointer;
+}
+
+.signup__alreadySignUpContainer a:hover{
+    text-decoration: underline;
 }

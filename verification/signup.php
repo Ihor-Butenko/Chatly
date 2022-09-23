@@ -16,12 +16,12 @@
                 <div class="signup__errorText">This error</div>
                 <div class="signup__userDataContainer">
                 <div class="signup__name-details">
-                    <div class="signup__field">
+                    <div class="signup__field" id="first-name">
                         <label for="#signup__firstName">First Name</label>
                         <input name="firstName" id="signup__firstName" type="text" placeholder="Elon">
                     </div>
                     <div class="signup__field">
-                        <label for="#signup__secondName">Second Name</label>
+                        <label for="#signup__secondName" id="second-name">Second Name</label>
                         <input name="secondName" id="signup__secondName" type="text" placeholder="Musk">
                     </div>
                 </div>
@@ -33,9 +33,11 @@
                         <label for="#signup__password">Password</label>
                         <input name="password" id="signup__password" type="password" placeholder="qwerty1234">
                     </div>
+                    <div class="photo">
                         <label for="#signup__photo">Choose your profile photo</label>
                         <input name="photo" id="signup__photo" type="file">
-                    <div class="signup__field">
+                    </div>
+                    <div class="signup__button">
                         <input name="submit" type="submit" value="Start Chat!">
                     </div>
                 </div>
