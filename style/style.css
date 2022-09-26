@@ -26,7 +26,7 @@ body{
     background-color: var(--grey-background-color);
 }
 
-.signup__wrapper{
+.wrapper{
     background-color: var(--white-color);
     width: 450px;
     border-radius: 16px;
@@ -118,7 +118,9 @@ body{
     cursor: pointer;    
 }
 
-.signup__signupForm form .signup__button input:hover{
+.signup__signupForm form .signup__button input:hover,
+.users__users header .users__logout:hover,
+.users__users .users__search button:hover{
     background-color: #191919; 
     transition: .2s linear;   
 }
@@ -133,6 +135,86 @@ body{
     cursor: pointer;
 }
 
-.signup__alreadySignUpContainer a:hover{
+.signup__alreadySignUpContainer a:hover {
     text-decoration: underline;
 }
+
+.users__users{
+    padding: 25px 30px;
+}
+
+.users__users header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 28px; 
+}
+
+.wrapper img{
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.users__users header .users__content{
+    display: flex;    
+}
+
+.users__users header .users__content img{
+    width: 50px;
+    height: 50px;
+}
+
+.users__users header .users__details{
+    margin-left: 15px;   
+}
+
+.users__users header .users__details span{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.users__users header .users__logout{
+    background-color: var(--grey-button-background-color); 
+    color: var(--white-color); 
+    padding: 7px 15px;
+    font-size: 17px;
+    border-radius: 5px; 
+}
+
+.users__users .users__search{
+    margin: 28px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.users__users .users__search .users__searchText{
+    font-size: 18px;
+}
+
+.users__users .users__search input{
+    position: absolute;
+    height: 42px;
+    width: calc(100% - 50px);
+    border: 1px solid #333;
+    border-radius: 5px 0 0 5px; 
+    padding: 0 13px;
+    font-size: 16px;
+    outline: none;    
+}
+
+.users__users .users__search button{
+    width: 47px;
+    height: 42px;
+    border: none;
+    outline: none;
+    color: var(--white-color);
+    background-color: var(--grey-button-background-color);
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+
