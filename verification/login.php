@@ -8,7 +8,7 @@
     <title>Welcome to Chatly!</title>
 </head>
 <body>
-    <div class="signup__wrapper">
+    <div class="wrapper">
         <section class="signup__signupForm">
             <header>Chatly</header>
             <form action="#" method="post">
