@@ -9,20 +9,22 @@
     <title>Welcome to Chatly!</title>
 </head>
 <body>
-    <div class="signup__wrapper">
+    <div class="wrapper">
         <section class="signup__signupForm">
             <header>Chatly</header>
             <form action="#" method="post">
-                <div class="signup__errorText">This error text</div>
+                <div class="signup__errorText">This error</div>
                 <div class="signup__userDataContainer">
-                    <div class="signup__field">
-                        <label for="#signup.php__firstName">First Name</label>
+                <div class="signup__name-details">
+                    <div class="signup__field" id="first-name">
+                        <label for="#signup__firstName">First Name</label>
                         <input name="firstName" id="signup__firstName" type="text" placeholder="Elon">
                     </div>
                     <div class="signup__field">
-                        <label for="#signup.php__secondName">Second Name</label>
+                        <label for="#signup__secondName" id="second-name">Second Name</label>
                         <input name="secondName" id="signup__secondName" type="text" placeholder="Musk">
                     </div>
+                </div>
                     <div class="signup__field">
                         <label for="#signup__email">Email Adress</label>
                         <input name="email" id="signup__email" type="text" placeholder="example@gmail.com">
@@ -31,11 +33,11 @@
                         <label for="#signup__password">Password</label>
                         <input name="password" id="signup__password" type="password" placeholder="qwerty1234">
                     </div>
-                    <div class="signup__field">
+                    <div class="photo">
                         <label for="#signup__photo">Choose your profile photo</label>
                         <input name="photo" id="signup__photo" type="file">
                     </div>
-                    <div class="signup__field">
+                    <div class="signup__button">
                         <input name="submit" type="submit" value="Start Chat!">
                     </div>
                 </div>
