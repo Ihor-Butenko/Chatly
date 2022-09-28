@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../assets/css/circle.css">
     <title>Chatly | Users</title>
 </head>
 <body>
@@ -28,15 +29,63 @@
             <div class="users__userList">
                 <a href="#">
                     <div class="users__content">
-                        <img src="#">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYF_Gkwed246shReuo5R1B53shZs_Tk4M6QGipJhnZuHKfTmv9-AXQEQmQkERaVWifGCU&usqp=CAU">
                         <div class="users__details">
                             <div class="users__details">
                                 <span>Username</span>
                                 <p>Test message...</p>
                             </div>        
                         </div>
-                        <div class="users-statusDot"></div>
                     </div>
+                    <div class="users-statusDot"><i class="icon icon-circle"></i></div>
+                </a>
+                <a href="#">
+                    <div class="users__content">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYF_Gkwed246shReuo5R1B53shZs_Tk4M6QGipJhnZuHKfTmv9-AXQEQmQkERaVWifGCU&usqp=CAU">
+                        <div class="users__details">
+                            <div class="users__details">
+                                <span>Username</span>
+                                <p>Test message...</p>
+                            </div>        
+                        </div>
+                    </div>
+                    <div class="users-statusDot"><i class="icon icon-circle"></i></div>
+                </a>
+                <a href="#">
+                    <div class="users__content">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYF_Gkwed246shReuo5R1B53shZs_Tk4M6QGipJhnZuHKfTmv9-AXQEQmQkERaVWifGCU&usqp=CAU">
+                        <div class="users__details">
+                            <div class="users__details">
+                                <span>Username</span>
+                                <p>Test message...</p>
+                            </div>        
+                        </div>
+                    </div>
+                    <div class="users-statusDot"><i class="icon icon-circle"></i></div>
+                </a>
+                <a href="#">
+                    <div class="users__content">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYF_Gkwed246shReuo5R1B53shZs_Tk4M6QGipJhnZuHKfTmv9-AXQEQmQkERaVWifGCU&usqp=CAU">
+                        <div class="users__details">
+                            <div class="users__details">
+                                <span>Username</span>
+                                <p>Test message...</p>
+                            </div>        
+                        </div>
+                    </div>
+                    <div class="users-statusDot"><i class="icon icon-circle"></i></div>
+                </a>
+                <a href="#">
+                    <div class="users__content">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYF_Gkwed246shReuo5R1B53shZs_Tk4M6QGipJhnZuHKfTmv9-AXQEQmQkERaVWifGCU&usqp=CAU">
+                        <div class="users__details">
+                            <div class="users__details">
+                                <span>Username</span>
+                                <p>Test message...</p>
+                            </div>        
+                        </div>
+                    </div>
+                    <div class="users-statusDot"><i class="icon icon-circle"></i></div>
                 </a>
             </div>
         </section>
